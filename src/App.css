@@ -51,7 +51,9 @@
 	src:
 	  url("./assets/fonts/emeraldBE.ttf") format("truetype");
   }
+
 .main--bg {
+
 	background-image: url(./assets/img/bg/banner_bg.jpg);
 	background-position: center;
 	background-size: cover;
@@ -142,10 +144,12 @@
 	margin-top: 25px;
 }
 .banner__btn--wrap .btn {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 15px 0 0 0;
 	letter-spacing: 1px;
 }
 .banner__btn--wrap .btn__two {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin-right: 20px;
 	min-width: 130px;
 }
@@ -489,3 +493,76 @@
     background-color: #dc3545;
     border-bottom: 1px solid #dc3545;
 }
+
+
+.cs-01-countdown {
+    font-family: emeraldBR;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cs-01-countdown .single-countdown__text {
+	font-family: emeraldBE;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.cs-01-countdown .single-countdown {
+    flex-basis: 100px;
+    margin-right: 30px;
+}
+
+.cs-01-countdown .single-countdown__time {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 15px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    border: 1px solid #CCE0E1;
+    border-radius: 10px;
+}
+
+.space-mt--50 {
+    margin-top: 50px;
+}
+
+
+.card {
+	width: 400px;
+	height: 200px;
+	position: relative;
+	background: #00BCD4;
+	border-radius: 3px;
+	background-position: top center;
+	transform-style: preserve-3d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+  
+}::after {
+	  content: '';
+	  position: absolute;
+	  width: 100%;
+	  height: 8px;
+	  border-radius: 50%;
+	  left: 0;
+	  bottom: 0px;
+	  box-shadow: 0 30px 20px rgba(0, 0, 0, .3);
+	}
+  
+  .card-content {
+	transform-style: preserve-3d;
+	text-align: center;
+  }
+	h1 {
+	  color: #FFF;
+	  transform: translateZ(100px);
+	}
+	p {
+	  color: #FFF;
+	  transform: translateZ(50px);
+	}
+  
+  

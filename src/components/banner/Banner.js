@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BannerImage from './BannerImage';
 import BannerShapes from './BannerShapes';
 import BannerContent from './BannerContent';
+import Countdown from "react-countdown";
+import Renderer from "../countdown/Renderer";
 
 export default class Banner extends Component {
   render() {
