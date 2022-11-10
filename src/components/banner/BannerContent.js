@@ -19,7 +19,7 @@ export default class BannerContent extends Component {
             {/* countdown */}
             <div className="cs-01-countdown space-mt--50">
               <Countdown
-                date={new Date("December 25, 2022 12:12:00")}
+                date={new Date("December 31, 2022 12:12:00")}
                 renderer={Renderer}
               />
             </div>
